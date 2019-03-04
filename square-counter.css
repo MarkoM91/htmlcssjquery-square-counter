@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  height: 70px;
+  width: 70px;
+  border: 1px solid black;
+}
+.green{
+  background-color: green;
+}
+.white{
+  text-align: center;
+  line-height: 70px;
+
+}
+.red{
+background-color: red;
+}
