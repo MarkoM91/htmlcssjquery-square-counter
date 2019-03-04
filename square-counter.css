@@ -25,6 +25,18 @@
   line-height: 70px;
 
 }
+.whiteyellow{
+  background-color: rgb(120, 166, 14);
+  text-align: center;
+  line-height: 70px;
+
+}
+.whitepurple{
+  background-color: rgb(81, 6, 128);
+  text-align: center;
+  line-height: 70px;
+
+}
 .red{
 background-color: red;
 }

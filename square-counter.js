@@ -9,12 +9,11 @@ green.click(function() {
 
  contatore -= 1;
  white.html(contatore);
- white.css("background-color" , "rgb(120, 166, 14)");
+ white.toggleClass("whitepurple" , "white");
 });
 
 red.click(function() {
   contatore += 1;
   white.html(contatore);
-  white.css("background-color" , "rgb(81, 6, 128)");
-
+  white.toggleClass("whiteyellow" , "white");
 });
